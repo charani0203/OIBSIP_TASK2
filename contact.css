@@ -1,0 +1,214 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  background-color: #e58686;
+}
+.body_section {
+  padding: 3% 5% 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Lovely Home";
+  src: local("Lovely Home"), url("Image/LovelyHome-9aBZ.ttf") format("truetype");
+}
+
+.brand-name,
+.navbar-light .navbar-brand {
+  /* font-family: "Brush Script MT"; */
+  /* margin-bottom: 3px; */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: #a33737;
+}
+@media only screen and (max-width: 764px) {
+  .brand-name,
+  .navbar-light .navbar-brand {
+    font-family: "Lovely Home";
+    font-size: 40px;
+    font-weight: bold;
+    color: #351458;
+  }
+}
+
+.headerachor {
+  color: rgb(185, 57, 10);
+  margin: 0 7px 0 7px;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b2dfe7;
+}
+
+.headerachor:hover {
+  background-color: #f1f1f1;
+}
+
+#contact {
+  padding: 20px 20px 10px;
+}
+
+.first-section {
+  text-align: center;
+}
+
+.Profilepic {
+  border-radius: 15%;
+  width: 300px;
+  height: 300px;
+  border: 5px solid;
+  border-color: #241c31;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);
+}
+
+.context {
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #868e96;
+}
+
+.ico {
+  padding: 0;
+}
+
+.icon {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 7px 0;
+  display: inline;
+}
+
+.github {
+  color: gray;
+}
+.instagram {
+  color: #fb3958;
+}
+.linkedin {
+  color: #0e76a8;
+}
+.google {
+  color: #ea4335;
+}
+
+.github:hover,
+.instagram:hover,
+.google:hover,
+.linkedin:hover {
+  color: black;
+}
+
+.Resume {
+  background-color: #961d1d;
+}
+.Resume:hover {
+  color: black;
+  background-color: white;
+}
+
+.second-section {
+  text-align: center;
+}
+
+.connect {
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: rgb(12, 9, 9);
+  background-color: #7a262d;
+  padding: 10px 30px 10px;
+  margin-left: 12%;
+  margin-right: 12%;
+  border-radius: 10px;
+}
+
+.connection {
+  margin-top: 30px;
+  margin-left: 290px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.sayhello {
+  margin-top: 15px;
+  border: 1px solid #c72d87;
+  border-radius: 10px;
+  padding: 10px 20px 10px;
+}
+
+.sayhello:hover {
+  text-align: none;
+  text-decoration: none;
+  color: rgb(201, 41, 41);
+  background-color: #b83983;
+}
+
+span.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  body,
+  html {
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .connect {
+    font-size: 20px;
+  }
+  .connection {
+    margin-left: 0px;
+  }
+}
+
+footer {
+  padding-top: 2%;
+  color: #921c53;
+  text-align: center;
+}
